@@ -1,0 +1,110 @@
+body {
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .header {
+  background-image: url("./icons/Main image desktop.jpg");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .header .content {
+  text-align: center;
+}
+
+body .header .content .title {
+  font-size: 2.5rem !important;
+}
+
+body .header .content .details {
+  font-size: 1.2rem !important;
+}
+
+body .header .action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+
+body .header .action button {
+  background-color: #50b550;
+  border-color: #50b550;
+  color: white;
+  height: 2rem;
+  width: 8rem;
+  border-radius: 0.5rem;
+}
+
+body .content {
+  text-align: center;
+}
+
+body .content .heading {
+  color: #4c4cc5;
+}
+
+body .content .details-row {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body .content .details-row .text-details {
+  float: left;
+  color: black;
+  width: 50%;
+}
+
+body .content .details-row .image-details {
+  float: left;
+  width: 50%;
+  margin-bottom: 0.5rem;
+}
+
+body .content .details-row .male {
+  color: #4c4cc5;
+}
+
+body .content .details-row .male-stats {
+  max-width: 6rem;
+  background-color: #4c4cc5;
+  color: white;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  min-height: 1.7rem;
+  text-align: center;
+  padding-top: 0.25rem;
+}
+
+body .content .details-row .female {
+  color: #0c7ca0;
+}
+
+body .content .details-row .female-stats {
+  max-width: 6rem;
+  background-color: #0c7ca0;
+  color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+  min-height: 1.7rem;
+  padding-top: 0.25rem;
+}
+
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */
